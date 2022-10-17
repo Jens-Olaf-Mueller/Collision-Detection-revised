@@ -89,8 +89,8 @@ function updateStatus() {
            left: ${player.X} | 
            bottom: ${player.bottom} | 
            right: ${player.right} | 
-           cX: ${player.centerX} .cY: ${player.centerY}<br><br>
-    Enemy  Y:  ${enemy.Y} | 
+           cX: ${player.centerX} | cY: ${player.centerY}<br><br>
+    Enemy  Y: ${enemy.Y} | 
            top: ${enemy.top} |
            left: ${enemy.X} | 
            bottom: ${enemy.bottom} | 
