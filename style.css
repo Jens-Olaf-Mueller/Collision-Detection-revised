@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+canvas {
+    background-color: lightgoldenrodyellow;
+    border: 3px double navy;
+}
+
+button {
+    width: 6rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.section-left {
+    margin: 1rem;
+    min-width: 860px;
+}
+
+.section-right {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    width: 100%;
+}
+
+.control {
+    display: flex;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.control>label {
+    min-width: 4rem;
+}
+
+.slider {
+    padding-left: 4.5rem;
+    font-weight: normal;
+}
+
+#divStatusbar {
+    padding: 0.75rem 0 0.75rem 0.75rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bolder;
+    border: 3px silver inset;
+    background-color: #eee;
+}
